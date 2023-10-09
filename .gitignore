@@ -1,3 +1,8 @@
 node_modules
 .vscode
 *.temp.json
+/.idea/.gitignore
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/total-typescript-types.iml
+/.idea/vcs.xml
