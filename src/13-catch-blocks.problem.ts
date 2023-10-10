@@ -6,7 +6,11 @@ const tryCatchDemo = (state: "fail" | "succeed") => {
       throw new Error("Failure!");
     }
   } catch (e) {
-    return e.message;
+    let message = "Unknown error"
+    if (e instanceof Error) {
+      message = e.message
+    }
+    return message;
   }
 };
 
